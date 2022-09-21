@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .wrap{
+            display: flex;
+            overflow: hidden;
+        }
+        .box{
+            width: 100%;
+            /* height: 200px; */
+            /* background-color: #faa; */
+            animation: move 30s linear infinite;
+
+        }
+        @keyframes move {
+            0%{
+            transform: translateX(0%);
+            }
+            100%{
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="box">
+            <img src="video.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="video.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
