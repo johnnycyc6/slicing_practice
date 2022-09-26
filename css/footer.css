@@ -1,0 +1,136 @@
+.area4 {
+  background: url(/material/PC-around.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.shade2 {
+  max-width: 100%;
+  height: 1000px;
+  background: rgba(44, 42, 42, 0.637) center center;
+  background-size: cover;
+}
+
+.wn_footer {
+  width: 100%;
+  height: 1000px;
+  /* background: palegreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-box {
+  width: 90%;
+  height: 800px;
+  /* background: palevioletred; */
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_block {
+  width: 50%;
+  flex-wrap: wrap;
+  /* background: rgb(71, 69, 67); */
+}
+
+.footer-list {
+  display: flex;
+  margin-left: 10px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-list a {
+  color: whitesmoke;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.footer-list a:hover {
+  color: red;
+}
+
+.Copyright {
+  width: 700px;
+  height: 800px;
+  /* background: plum; */
+  margin-top: 19px;
+  padding-right: 17px;
+}
+
+.Copyright p {
+  color: whitesmoke;
+  word-break: break-all;
+}
+
+.block_right {
+  display: flex;
+  width: 700px;
+  height: 800px;
+  /* background: rgba(49, 47, 47, 0.951); */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 36px;
+}
+
+.right_box {
+  width: 200px;
+  height: 200px;
+  background: rgba(210, 208, 204, 0.812);
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+
+.right_box a {
+  font-size: 48px;
+  font-weight: bold;
+  color: whitesmoke;
+  transition: 0.5s;
+}
+
+.right_box a:hover {
+  color: red;
+}
+
+.right_box.hide {
+  margin-top: -140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+
+.right_box.hide2 {
+  margin-top: -140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+
+.right_box .boxf {
+  font-size: 100px;
+}
+
+.right_box .boxi {
+  font-size: 100px;
+}
+
+.right_box .boxy {
+  font-size: 100px;
+}
+
+.right_box .boxt {
+  font-size: 100px;
+}
+
+.right_box .boxk {
+  font-size: 100px;
+}/*# sourceMappingURL=footer.css.map */
